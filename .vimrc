@@ -10,6 +10,7 @@ set relativenumber
 set history=2000
 set mouse=a
 set clipboard=unnamedplus
+let g:netrw_banner=0
 
 " base
 set nocompatible                " don't bother with vi compatibility
