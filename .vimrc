@@ -5,8 +5,6 @@ filetype on
 filetype plugin on
 filetype indent on
 set noswapfile
-set number
-set relativenumber
 set history=2000
 set mouse=a
 set clipboard=unnamedplus
