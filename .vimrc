@@ -71,6 +71,6 @@ set statusline=%<%f\ %h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\
 set laststatus=2   " Always show the status line - use 2 lines for the status bar
 
 " my custom keybinding
-nnoremap <leader>e 15L:Lex<CR>                          " 15 left columns explorer
+nnoremap <leader>e :15Lex<CR>                          " 15 left columns explorer
 let g:copy_mode = 0
 nnoremap <leader>c :if g:copy_mode == 0 \| set nonumber norelativenumber \| let g:copy_mode=1 \| else \| set number relativenumber \| let g:copy_mode=0 \| endif<CR>
